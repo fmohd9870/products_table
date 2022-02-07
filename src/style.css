@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .content{
+      margin-top: 5%;
+      width: 60%;
+  }
+  .table1 {
+    border-collapse: separate;
+    border-spacing: 8px 15px;
+    margin-left: 25%;
+  }
+  .table2{
+    border-collapse: separate;
+    border-spacing: 108px 15px;
+  }
+  .add {
+    padding: 15px 30px;
+    margin-left: 15%;
+  }
