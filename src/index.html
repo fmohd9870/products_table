@@ -38,7 +38,8 @@
           </tr>
           <tr>
             <td colspan="2">
-              <input type="button" value="Add Product" class="add" onclick="fun()"/>
+              <input type="button" id="add" value="Add Product" class="add" onclick="check()"/>
+              <input type="button" id="edit" value="Edit Product" class="edit" onclick="update()"/>
             </td>
           </tr>
         </table>
@@ -55,6 +56,9 @@
 
             <th>
               <label for="">Product Price</label>
+            </th>
+            <th>
+              <label for="">Action</label>
             </th>
           </tr>
         </thead>

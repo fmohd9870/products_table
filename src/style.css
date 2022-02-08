@@ -18,4 +18,10 @@
   .add {
     padding: 15px 30px;
     margin-left: 15%;
+    display: block;
+  }
+  .edit {
+    padding: 15px 30px;
+    margin-left: 15%;
+    display: none;
   }
